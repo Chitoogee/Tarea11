@@ -1,7 +1,4 @@
 def crear_plan(faenas, dias):
-    """
-    Crea un plan de producción vacío de dimensiones faenas x dias.
-    """
     plan = []
     for i in range(faenas):
         fila = []
@@ -12,9 +9,6 @@ def crear_plan(faenas, dias):
 
 
 def mostrar_plan(plan):
-    """
-    Muestra el plan de producción en una matriz.
-    """
     for fila in plan:
         for elemento in fila:
             print(elemento, end="\t")
